@@ -19,7 +19,7 @@ export default class QueryBuilder extends React.Component {
         };
     }
 
-    static get propTypes() {
+    static propTypes = {
         return {
             query: React.PropTypes.object,
             fields: React.PropTypes.array.isRequired,
